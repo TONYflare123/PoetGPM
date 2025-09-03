@@ -1,0 +1,9 @@
+spacy>=3.0.0
+# Optional: choose either of the following models (uncomment one as needed)
+# en-core-web-sm
+# en-core-web-md
+
+# To install a model, run:
+# python -m spacy download en-core-web-sm
+# or
+# python -m spacy download en-core-web-md
