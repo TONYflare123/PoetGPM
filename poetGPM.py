@@ -8,7 +8,7 @@ class PoetGPM:
     - Creative Layer: Bigram model for maximum novelty and unpredictability.
     - Grammar Layer: Trigram GPM to ensure grammatical coherence.
     """
-
+    # Use (en_core_web_sm) instead, if you want to
     def __init__(self, spacy_model: str = "en_core_web_md"):
         self.nlp = spacy.load(spacy_model, disable=["ner", "lemmatizer"])
         # Creative Layer (Bigram: n=2)
